@@ -1,0 +1,54 @@
+---
+- hosts: all
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: ericsysmin.chrony
+    chrony_config_server:
+      - "{{ ntp_server }}"
+  - role: vxflex_mdminstall_all
+
+- hosts: master:standby
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_mdminstall_master
+
+- hosts: tiebreaker
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_mdminstall_tiebreaker
+
+- hosts: gateway
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_mdminstall_gateway
+
+- hosts: master
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_createcluster
+  - role: vxflex_createpdandsp
+
+- hosts: sds
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_addsds
+
+- hosts: sds
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_adddrives
+

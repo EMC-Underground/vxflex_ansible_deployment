@@ -1,0 +1,16 @@
+[gateway]
+<gateway management ip address>
+
+[master]
+<master mdm management ip address>
+
+[standby]
+<standby mdm management ip address>
+
+[tiebreaker]
+<tiebreaker mdm management ip address>
+
+[sds]
+<sds server1 management ip address>
+<sds server2 management ip address>
+<sds server3 management ip address>

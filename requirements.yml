@@ -1,0 +1,26 @@
+- src: dilerous.vxflex_mdminstall_all
+  name: vxflex_mdminstall_all
+
+- src: ericsysmin.chrony
+  name: ericsysmin.chrony
+
+- src: dilerous.vxflex_mdminstall_master
+  name: vxflex_mdminstall_master
+
+- src: dilerous.vxflex_mdminstall_gateway
+  name: vxflex_mdminstall_gateway
+
+- src: dilerous.vxflex_mdminstall_tiebreaker
+  name: vxflex_mdminstall_tiebreaker
+
+- src: dilerous.vxflex_adddrives
+  name: vxflex_adddrives
+
+- src: dilerous.vxflex_addsds
+  name: vxflex_addsds
+
+- src: dilerous.vxflex_createpdandsp
+  name: vxflex_createpdandsp
+
+- src: dilerous.vxflex_createcluster
+  name: vxflex_createcluster
