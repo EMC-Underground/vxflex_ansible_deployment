@@ -1,5 +1,5 @@
 ---
-# in the above example, this would be vars/external_vars.yml
+# Enter your systems specific details and rename to vars.yml
 ntp_server: <ntp server>
 vxflex_gateway_ip: <gateway server ip address>
 vxflex_gateway_username: <gateway username>
