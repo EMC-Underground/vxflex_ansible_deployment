@@ -14,3 +14,11 @@
 <sds server1 management ip address>
 <sds server2 management ip address>
 <sds server3 management ip address>
+
+[sdc]
+<sdc server1 management ip address>
+<sdc server1 management ip address>
+<sdc server1 management ip address>
+
+
+

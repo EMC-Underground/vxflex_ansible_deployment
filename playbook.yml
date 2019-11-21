@@ -52,3 +52,10 @@
   roles:
   - role: vxflex_adddrives
 
+- hosts: sdc
+  become: true
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+  - role: vxflex_install_sdc
+

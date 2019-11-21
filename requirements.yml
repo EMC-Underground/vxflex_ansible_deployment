@@ -24,3 +24,6 @@
 
 - src: dilerous.vxflex_createcluster
   name: vxflex_createcluster
+
+- src: dilerous.vxflex_install_sdc
+  name: vxflex_install_sdc
