@@ -13,6 +13,7 @@ vxflex_protection_domain_name: <protection domain name>
 vxflex_master_mdm_name: <master mdm server name>
 vxflex_standby_mdm_name: <standby mdm server name>
 vxflex_tiebreaker_mdm_name: <tiebreaker mdm server name>
+vxflex_vip_ip: <vip ip address for mdm cluster.
 vxflex_master_mdm_mgmt_ip:
   - <master mdm management ip address>
 vxflex_standby_mdm_mgmt_ip:
