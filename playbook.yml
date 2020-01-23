@@ -30,7 +30,7 @@
   roles:
   - role: vxflex_mdminstall_gateway
 
-- hosts: master
+- hosts: master:standby:tiebreaker
   become: true
   vars_files:
     - ./vars/vars.yml
