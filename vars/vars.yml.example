@@ -11,4 +11,4 @@ vxflex_storage_pool_name: sp1
 vxflex_protection_domain_name: pd1
 vxflex_vip_ip: <vip ip address for mdm cluster.
 vxflex_mdm_cidr: <storage network with subnet>  # example - 192.168.0.0/8
-vxflex_mdm_public_cidr: # example 10.237.198.0/24
+vxflex_mdm_public_cidr: <public network with subnet> # example 10.237.198.0/24
