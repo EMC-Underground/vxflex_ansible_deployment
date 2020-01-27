@@ -1,33 +1,14 @@
 ---
 # Enter your systems specific details and rename to vars.yml
-ntp_server: <ntp server>
-vxflex_gateway_ip: <gateway server ip address>
-vxflex_gateway_username: <gateway username>
-vxflex_gateway_pw: <gateway password>
-vxflex_gateway_http_port: <http port>  # 80 or 8080
-vxflex_gateway_https_port: <https port > # 443 or 8443
-vxflex_version: <version of vxflex software> # example - 2.6-10000.123
-vxflex_system_name: <vxflex cluster name>
-vxflex_storage_pool_name: <storage pool name>
-vxflex_protection_domain_name: <protection domain name>
-vxflex_master_mdm_name: <master mdm server name>
-vxflex_standby_mdm_name: <standby mdm server name>
-vxflex_tiebreaker_mdm_name: <tiebreaker mdm server name>
+ntp_server: us.pool.ntp.org
+vxflex_gateway_username: admin
+vxflex_gateway_pw: Password#1
+vxflex_gateway_http_port: 80  # 80 or 8080
+vxflex_gateway_https_port: 443 # 443 or 8443
+vxflex_version: 3.0-200.104 # example - 2.6-10000.123
+vxflex_system_name: scaleio
+vxflex_storage_pool_name: sp1
+vxflex_protection_domain_name: pd1
 vxflex_vip_ip: <vip ip address for mdm cluster.
-vxflex_master_mdm_mgmt_ip:
-  - <master mdm management ip address>
-vxflex_standby_mdm_mgmt_ip:
-  - <standby mdm management ip address>
-vxflex_tiebreaker_mdm_mgmt_ip:
-  - <tiebreaker mdm management ip address>
-vxflex_master_mdm_ip:
-  - <master mdm storage network ip address>
-  - <master mdm storage network ip address>
-vxflex_standby_mdm_ip:
-  - <standby mdm storage network ip address>
-  - <standby mdm storage network ip address>
-vxflex_tiebreaker_mdm_ip:
-  - <tiebreaker mdm storage network ip address>
-  - <tiebreaker mdm storage network ip address>
 vxflex_mdm_cidr: <storage network with subnet>  # example - 192.168.0.0/8
-rexray_log_level: debug
+vxflex_mdm_public_cidr: # example 10.237.198.0/24
