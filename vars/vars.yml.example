@@ -1,14 +1,8 @@
 ---
 # Enter your systems specific details and rename to vars.yml
 ntp_server: us.pool.ntp.org
-vxflex_gateway_username: admin
-vxflex_gateway_pw: Password#1
-vxflex_gateway_http_port: 80  # 80 or 8080
-vxflex_gateway_https_port: 443 # 443 or 8443
-vxflex_version: 3.0-200.104 # example - 2.6-10000.123
-vxflex_system_name: scaleio
-vxflex_storage_pool_name: sp1
-vxflex_protection_domain_name: pd1
+vxflex_version: <version of rpm files>  # example - 2.6-10000.123
 vxflex_vip_ip: <vip ip address for mdm cluster.
 vxflex_mdm_cidr: <storage network with subnet>  # example - 192.168.0.0/8
 vxflex_mdm_public_cidr: <public network with subnet> # example 10.237.198.0/24
+rexray_log_level: debug
