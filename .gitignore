@@ -1,0 +1,3 @@
+hosts
+vars/vars.yml
+*.rpm
