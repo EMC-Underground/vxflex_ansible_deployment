@@ -1,6 +1,6 @@
 - src: dilerous.vxflex_mdminstall_all
   name: vxflex_mdminstall_all
-  version: v1.0.0
+  version: v1.0.1
 
 - src: ericsysmin.chrony
   name: ericsysmin.chrony
@@ -15,16 +15,16 @@
 
 - src: dilerous.vxflex_addsds
   name: vxflex_addsds
-  version: v1.0.1
+  version: v1.0.3
 
 - src: dilerous.vxflex_createpdandsp
   name: vxflex_createpdandsp
-  version: v1.0.2
+  version: v1.0.3
 
 - src: dilerous.vxflex_createcluster
   name: vxflex_createcluster
-  version: v1.0.2
+  version: v1.0.3
 
 - src: dilerous.vxflex_install_sdc
   name: vxflex_install_sdc
-  version: v1.0.1
+  version: v1.0.3
