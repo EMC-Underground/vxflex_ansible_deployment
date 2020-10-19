@@ -2,7 +2,11 @@
 # Enter your systems specific details and rename to vars.yml
 ntp_server: us.pool.ntp.org
 vxflex_version: <version of rpm files>  # example - 2.6-10000.123
+sdc_version: 3.5.1000.160 #Not a required variable
+esx_version: 6.x #Valid Values are 6.x and 7.x Only required if deploying sdc to vmware
 vxflex_vip_ip: <vip ip address for mdm cluster.
 vxflex_mdm_cidr: <storage network with subnet>  # example - 192.168.0.0/8
 vxflex_mdm_public_cidr: <public network with subnet> # example 10.237.198.0/24
 rexray_log_level: debug
+
+
